@@ -191,6 +191,6 @@ while True: #tercero
         starttime = time.time()
         clock = 0
         while clock < horas:
-            time.sleep(10 - ((time.time() - starttime) % 10))
+            time.sleep(3600 - ((time.time() - starttime) % 3600))
             clock += 1
             scan_urls()

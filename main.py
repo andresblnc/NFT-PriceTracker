@@ -31,7 +31,7 @@ def find_price_opensea(link, min, max):
         print("The price is under the lower limit!")
         #os.system("say 'EL precio actual es menor al límite inferior.'")
     if float(price_dls[1:].replace(",", "")) > max:
-        print("El precio es mayor al límite superior!")
+        #print("El precio es mayor al límite superior!")
         print("The price is over the upper limit!")
         #os.system("say 'EL precio actual es mayor al límite superior.'")
     print()
